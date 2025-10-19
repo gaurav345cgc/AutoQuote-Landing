@@ -4,6 +4,7 @@ import Solution from "@/components/sections/Solution";
 import Capabilities from "@/components/sections/Capabilities";
 import Impact from "@/components/sections/Impact";
 import CTA from "@/components/sections/CTA";
+import Footer from "@/components/sections/Footer";
 import Dock from "@/components/ui/dock";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Capabilities />
       <Impact />
       <CTA />
+      <Footer />
       <Dock />
     </main>
   );
